@@ -1,2 +1,4 @@
-preprocess || encode: main.cpp	
-	g++ -o hello main.cpp
+preprocess: main.cpp	
+	g++ -o preprocess main.cpp
+encode: main.cpp	
+	g++ -o encode main.cpp
